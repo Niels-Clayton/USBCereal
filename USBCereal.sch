@@ -27,8 +27,6 @@ Wire Wire Line
 Wire Wire Line
 	1900 1800 1750 1800
 Connection ~ 1900 1800
-Text GLabel 850  2500 3    50   Input ~ 0
-shield
 $Comp
 L power:+5V #PWR03
 U 1 1 60D16DD2
@@ -45,18 +43,6 @@ Wire Wire Line
 Connection ~ 2950 1000
 Wire Wire Line
 	1750 1000 2950 1000
-$Comp
-L Connector:USB_C_Receptacle_USB2.0 J1
-U 1 1 60D11074
-P 1150 1600
-F 0 "J1" H 1150 2450 50  0000 C CNN
-F 1 "USB_C" H 1150 2350 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 1300 1600 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1300 1600 50  0001 C CNN
-F 4 "2137160001" H 1150 1600 50  0001 C CNN "Part Number"
-	1    1150 1600
-	1    0    0    -1  
-$EndComp
 NoConn ~ 1750 2100
 NoConn ~ 1750 2200
 Wire Wire Line
@@ -443,7 +429,7 @@ U 1 1 60E3DF88
 P 7475 1350
 F 0 "D1" V 7550 1475 50  0000 R CNN
 F 1 "LED_Small" H 7650 1250 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Castellated" V 7475 1350 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7475 1350 50  0001 C CNN
 F 3 "~" V 7475 1350 50  0001 C CNN
 F 4 "19-217/BHC-ZL1M2RY/3T" V 7475 1350 50  0001 C CNN "Part Number"
 	1    7475 1350
@@ -475,7 +461,7 @@ U 1 1 60E9D1DB
 P 7800 1350
 F 0 "D2" V 7875 1475 50  0000 R CNN
 F 1 "LED_Small" H 7975 1250 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Castellated" V 7800 1350 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7800 1350 50  0001 C CNN
 F 3 "~" V 7800 1350 50  0001 C CNN
 F 4 "19-217/BHC-ZL1M2RY/3T" V 7800 1350 50  0001 C CNN "Part Number"
 	1    7800 1350
@@ -549,4 +535,17 @@ Wire Notes Line
 	475  2875 11225 2875
 Text Notes 8725 600  2    50   ~ 0
 Output Header 
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 60D11074
+P 1150 1600
+F 0 "J1" H 1150 2450 50  0000 C CNN
+F 1 "USB_C" H 1150 2350 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 1300 1600 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1300 1600 50  0001 C CNN
+F 4 "2137160001" H 1150 1600 50  0001 C CNN "Part Number"
+	1    1150 1600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 850  2500
 $EndSCHEMATC
