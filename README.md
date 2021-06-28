@@ -1,1 +1,1 @@
-# USBCerial
+# USBCereal
