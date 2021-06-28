@@ -1,4 +1,4 @@
-update=Sat 26 Jun 2021 19:36:54
+update=Mon 28 Jun 2021 18:17:29
 version=1
 last_client=kicad
 [general]
@@ -44,6 +44,9 @@ ViaDrill1=0.4
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
+dPairWidth2=0.261112
+dPairGap2=0.2032
+dPairViaGap2=0.2032
 SilkLineWidth=0.12
 SilkTextSizeV=1
 SilkTextSizeH=1
@@ -249,7 +252,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=VCC
 Clearance=0.2
-TrackWidth=0.3
+TrackWidth=0.5
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
