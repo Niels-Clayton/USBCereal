@@ -1,11 +1,10 @@
 Comment,Designator,Footprint,LCSC
-"0.1uF  50V","C1","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","CL10A105KB8NNNC"
-"1uF  50V","C2,C3","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","CL10A105KB8NNNC"
-"LED_Small","D1,D2","LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder","19-217/BHC-ZL1M2RY/3T"
-"USB_C","J1","Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12","C165948"
-"Conn_01x06","J2","Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal",""
-"Jumper","JP1","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",""
-"5.1k","R1,R2","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","0603WAF5101T5E"
-"47R","R3,R4","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","0603WAF470JT5E"
-"XC6206P332MR","U1","Package_TO_SOT_SMD:SOT-23","C5446"
-"CH340C","U2","Package_SO:SOIC-16_3.9x9.9mm_P1.27mm","C84681"
+0.1uF  50V,C1,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CC0603KRX7R9BB104
+1uF  50V,"C2,C3",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10A105KB8NNNC
+LED_Small,"D1,D2",LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,19-217/BHC-ZL1M2RY/3T
+USB_C,J1,Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12,C165948
+5.1k,"R1,R2",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,0603WAF5101T5E
+47R,"R3,R4",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,0603WAF470JT5E
+SW_SPDT,SW1,Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN,C128953
+XC6206P332MR,U1,Package_TO_SOT_SMD:SOT-23,C5446
+CH340C,U2,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,C84681
