@@ -66,7 +66,7 @@ Wire Wire Line
 Text Label 5750 2075 0    50   ~ 0
 USB_D-
 $Comp
-L USBCerial:CH340C U2
+L USBCereal:CH340C U2
 U 1 1 60D09F5C
 P 6550 1875
 F 0 "U2" H 6550 2525 50  0000 C CNN
